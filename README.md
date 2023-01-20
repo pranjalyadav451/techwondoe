@@ -60,5 +60,8 @@ Start the development server
 
 - [x]  <https://github.com/google/gts> . Configure linter accordingly. (Optional)Ability to download CSV
 - [x]  Use Tailwind CSS for styling, but quite preferred Use of React table
-- [x]  Confirmation modal on deleting user Submission
-- [x]  Share a GitHub link for the project Deploy to Netlify or Vercel and share the link Record a video and share the same
+- [x]  Confirmation modal on deleting user 
+### Submission
+- [x]  Share a GitHub link for the project 
+- [x] Deploy to Netlify or Vercel 
+- [x] share the link Record a video and share the same
