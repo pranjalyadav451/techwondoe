@@ -7,6 +7,11 @@ React implementation of the problem given in Techwondoe Assignment.
 
 - [@Pranjal Yadav](https://www.github.com/octokatherine)
 
+## Architecture
+
+- `React` frontend deployed on `vercel`
+- `fake-database` created using `json-server` deployed on `cyclic.sh`
+
 ## Run Locally
 
 Clone the project
