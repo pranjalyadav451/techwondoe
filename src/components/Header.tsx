@@ -24,7 +24,7 @@ function Header({ paginationDetails }: { paginationDetails: PaginationState }) {
 
   const handleDataDownload = () => {
     setDownloadStatus("loading");
-    const data = axios
+    axios
       .get(`${BASE_URL}/Users`)
       .then(res => {
         const { data } = res;

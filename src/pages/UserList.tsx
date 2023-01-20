@@ -6,7 +6,7 @@ import {
   SortingState,
   useReactTable,
 } from "@tanstack/react-table";
-import { deleteUser, getUsers, User, UserReponse } from "../utils";
+import { getUsers, UserReponse } from "../utils";
 import { productsColumns, UserTableColumn } from "../components/ColumnBuilder";
 import { Header } from "../components/Header";
 import { TableView } from "../components/TableView";

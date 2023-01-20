@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate-react-typescript",
+  "name": "techwondoe-assignment",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -61,6 +61,8 @@
   },
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "gts": "^3.1.1",
     "json-server": "^0.17.1",
     "tailwindcss": "^3.2.4"

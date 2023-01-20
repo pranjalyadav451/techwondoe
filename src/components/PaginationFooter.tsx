@@ -1,5 +1,4 @@
 import { Table } from "@tanstack/react-table";
-import { User } from "../utils";
 import { UserTableColumn } from "./ColumnBuilder";
 
 type PaginationProps = {

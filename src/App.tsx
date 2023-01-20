@@ -1,5 +1,4 @@
 import { UserList } from "./pages/UserList";
-import { generateDummyUsers } from "./utils";
 
 function App() {
   return (

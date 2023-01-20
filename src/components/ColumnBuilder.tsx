@@ -1,14 +1,12 @@
-import { QueryClient, useMutation } from "@tanstack/react-query";
 import { createColumnHelper } from "@tanstack/react-table";
 import classNames from "classnames";
-import { deleteUser, User } from "../utils";
+import { User } from "../utils";
 
 export type UserTableColumn = User & {
   edit: string;
   delete: string;
 };
 
-const queryClient = new QueryClient();
 const columnsHelper = createColumnHelper<UserTableColumn>();
 
 export const productsColumns = [
@@ -58,7 +56,7 @@ export const productsColumns = [
     sortingFn: "datetime",
   }),
   columnsHelper.accessor("edit", {
-    cell: info => (
+    cell: () => (
       <span>
         <button className="bg-red-500 text-neutral-200  outline-none">
           Edit
@@ -69,7 +67,7 @@ export const productsColumns = [
     enableSorting: false,
   }),
   columnsHelper.accessor("delete", {
-    cell: info => <span></span>,
+    cell: () => <span></span>,
     enableSorting: false,
     header: () => <span>Delete</span>,
   }),
